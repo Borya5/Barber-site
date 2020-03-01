@@ -187,38 +187,9 @@
       </ul>
 
     </section>
-    <section class="appointment">
-      <div class="container">
-        <h2 class="section-title section-title--white">Make An Appointment</h2>
-        <p class="appointment__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam</p>
-        <form class="appointment__form" action="#" method="get">
-          <div class="appointment__column">
-            <input class="appointment__textfield" type="text" name="name" id="nameField" placeholder="Name" required>
-            <input class="appointment__textfield" type="email" name="email" placeholder="Email" pattern="[^ @]*@[^ @]*"
-              id="email" required>
-            <input class="appointment__textfield" type="tel" name="phone" id="phone" placeholder="Phone"
-              pattern="+[0-9]-[0-9]{3}-[0-9]{7}" required>
-          </div>
-          <div class="appointment__column">
-            <select class="appointment__select" name="services" id="services" required>
-              <option value="hair cut">hair cut</option>
-              <option value="hair wash">hair wash</option>
-              <option value="hair styling">hair styling</option>
-              <option value="shaving">shaving</option>
-            </select>
-            <select class="appointment__select" name="barber" id="barber" required>
-              <option value="Darrell Gibbs">Darrell Gibbs</option>
-              <option value="David Clarke">David Clarke</option>
-              <option value="Richard Owens">Richard Owens</option>
-            </select>
-            <input class="appointment__datefield" type="date" name="date" id="date" required>
-          </div>
-          <textarea class="appointment__message" name="message" id="message" cols="30" rows="10"
-            placeholder="Message"></textarea>
-          <button class="appointment__btn" type="submit">Make An Appointment</button>
-        </form>
-      </div>
+
+    </form>
+    </div>
     </section>
     <section class="barbers">
       <div class="container">
@@ -295,20 +266,6 @@
     </section>
     <section class="gallery">
       <h2 class="section-title">Our Gallery</h2>
-<<<<<<< HEAD
-      <p class="gallery__description">Sed ut perspiciatis unde omnis icte natus error sit voluptatem accusantium
-        doloremque laudantium, totam rem aperiam</p>
-      <img class="gallery__img" width="384" height="384" src="img/1.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/2.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/3.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/4.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/5.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/6.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/7.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/8.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/9.jpg" alt="Изображение галереи">
-      <img class="gallery__img" width="384" height="384" src="img/10.jpg" alt="Изображение галереи">
-=======
       <p class="gallery__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam</p>
       <div class="gallery__wrapper">
@@ -323,7 +280,6 @@
         <img class="gallery__img" width="384" height="384" src="img/9.jpg" alt="Изображение галереи">
         <img class="gallery__img" width="384" height="384" src="img/10.jpg" alt="Изображение галереи">
       </div>
->>>>>>> bd5c663a3cb37adbd098926d10802da70bfb1386
     </section>
     <section class="prising">
       <h2 class="section-title">Our Pricing</h2>
@@ -515,6 +471,41 @@
       </ul>
     </div>
   </footer>
+  <section class="appointment">
+    <div class="container">
+      <h2 class="section-title section-title--white">Make An Appointment</h2>
+      <p class="appointment__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam</p>
+      <form class="appointment__form" action="#" method="get">
+        <div class="appointment__column">
+          <input class="appointment__textfield" type="text" name="name" id="nameField" placeholder="Name" required>
+          <input class="appointment__textfield" type="email" name="email" placeholder="Email" pattern="[^ @]*@[^ @]*"
+            id="email" required>
+          <input class="appointment__textfield" type="tel" name="phone" id="phone" placeholder="Phone"
+            pattern="+[0-9]-[0-9]{3}-[0-9]{7}" required>
+        </div>
+        <div class="appointment__column">
+          <div class="appointment__select-wraper">
+            <select class="appointment__select" name="services" id="services" required>
+              <option value="hair cut">hair cut</option>
+              <option value="hair wash">hair wash</option>
+              <option value="hair styling">hair styling</option>
+              <option value="shaving">shaving</option>
+            </select>
+            <select class="appointment__select" name="barber" id="barber" required>
+              <option value="Darrell Gibbs">Darrell Gibbs</option>
+              <option value="David Clarke">David Clarke</option>
+              <option value="Richard Owens">Richard Owens</option>
+            </select>
+            <input class="appointment__datefield" type="date" name="date" id="date" required>
+          </div>
+          <textarea class="appointment__message" name="message" id="message" cols="30" rows="10"
+            placeholder="Message"></textarea>
+          <button class="appointment__btn" type="submit">Make An Appointment</button>
+
+
+
 </body>
+
 
 </html>

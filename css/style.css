@@ -574,16 +574,10 @@ a {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-<<<<<<< HEAD
-  letter-spacing: 0,05em;
-  margin-top: 10px;
-  text-transform: uppercase;
-=======
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
   letter-spacing: 0.05em;
->>>>>>> bd5c663a3cb37adbd098926d10802da70bfb1386
 }
 
 .services__title {
@@ -645,25 +639,6 @@ a {
   line-height: 26px;
   font-family: "Vani", "Times New Roman", serif;
   text-align: center;
-<<<<<<< HEAD
-}
-
-.statistics {
-  background-color: #000000;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/bg-2.jpg");
-  padding-top: 56px;
-  padding-bottom: 33px; 
-}
-
-.statistics__list {
-  margin: 0 auto;
-  padding: 0;
-  padding-left: 5px;
-  list-style: none;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-=======
   color: #ffffff;
   letter-spacing: 1px;
 }
@@ -686,7 +661,6 @@ a {
   padding-left: 5px;
 
   list-style: none;
->>>>>>> bd5c663a3cb37adbd098926d10802da70bfb1386
 }
 
 .statistics__item {
@@ -695,14 +669,6 @@ a {
 
 .statistics__price {
   margin: 0;
-<<<<<<< HEAD
-  line-height: 1;
-  letter-spacing: 5,6px;
-}
-
-.appointment {
-  background-color: #000000;
-=======
 
   line-height: 1;
   letter-spacing: 5.6px;
@@ -809,20 +775,63 @@ a {
 .appointment__textfield {
   box-sizing: border-box;
   width: 100%;
+  color: #808080;
+
+  background-color: transparent;
+  border: none;
 }
 
 .appointment__select {
   box-sizing: border-box;
+  width: 48%;
+  padding: 30px;
+  color: #808080;
   width: 100%;
+
+  background-color: transparent;
+  border: none;
+}
+
+.appointment__select-wrapper--date::before {
+  content: "";
+  position: absolute;
+
+  top: 4px;
+  right: 0;
+
+  width: 50px;
+  height: 40px;
+
+  background-color: black;
+  
+  pointer-events: none;
+
 }
 
 .appointment__datefield {
   box-sizing: border-box;
   width: 100%;
+  padding: 10px;
+  padding-bottom: 11px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .appointment__message {
   width: 100%;
+  height: 120px;
+  padding-top: 50px;
+
+  color: #808080;
+
+
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #808080;
 }
 
 .barbers__list {
@@ -844,5 +853,4 @@ a {
   flex-wrap: wrap;
   width: 1920px;
   margin: 0 auto;
->>>>>>> bd5c663a3cb37adbd098926d10802da70bfb1386
 }
