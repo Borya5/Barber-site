@@ -929,7 +929,8 @@ a {
   border-radius: 50%;
 }
 .modal_close-bth::before {
-  content
+  content: "";
+  
 }
 
 .modal {

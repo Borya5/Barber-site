@@ -471,7 +471,8 @@
 
 
   <section class="appointment modal">
-    <button type="button" class <div class="container">
+    <button class="modal__close-btn" type="button"></button>
+    <div class="container">
       <h2 class="section-title section-title--white">Make An Appointment</h2>
 
       <div class="section-img"></div>
@@ -515,9 +516,13 @@
         <textarea class="appointment__message" name="message" id="message" cols="30" rows="10"
           placeholder="Message"></textarea>
         <button class="appointment__btn" type="submit">Make An Appointment</button>
-        <button class="appointment__btn appointment__btn--reset" type="reset">Clear form</button>
+
+        <div class="appointment__btn-wrapper">
+          <button class="appointment__btn appointment__btn--reset" type="reset">Clear form</button>
+        </div>
+
       </form>
-      </div>
+    </div>
   </section>
 
 </body>
